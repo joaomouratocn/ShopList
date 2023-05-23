@@ -1,4 +1,4 @@
-# ShopList
+# Aplicativo de lista de compras
 
 Aplicativo de lista de compras, desenvolvido para exercitar conceitos do android:
 
