@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_rename_shop_list"
+        android:title="@string/str_rename"
+        android:icon="@drawable/baseline_edit_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_done_edit"
+        android:title="@string/str_done"
+        android:icon="@drawable/baseline_check_24"
+        app:showAsAction="ifRoom"/>
+</menu>

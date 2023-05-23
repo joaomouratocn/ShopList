@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Shopping list</string>
+    <string name="str_search_shopping_list">Search shopping list</string>
+    <string name="str_add_new_shopping_list">Add new list</string>
+    <string name="str_more_options">More option</string>
+    <string name="str_image_list">shop list image</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_delete_shop_list">Delete list</string>
+    <string name="str_rename">rename</string>
+    <string name="str_insert_name_of_shop_list">Insert name of list</string>
+    <string name="str_save">Save</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_amount_check" translatable="false">"%1$d/%2$d"</string>
+    <string name="str_price">Price: </string>
+    <string name="str_amount_items">Amount: </string>
+    <string name="str_edit_name_list">Edit list name</string>
+    <string name="str_new_name_list">Insert list name</string>
+    <string name="str_delete_product">Delete Product</string>
+    <string name="str_add_item">Add item</string>
+    <string name="str_category_icon">Category icon</string>
+    <string name="str_description_opt">Description(optional)</string>
+    <string name="str_type">Type:</string>
+    <string name="str_image_close">Image close</string>
+    <string name="str_search_product">Search product</string>
+    <string name="str_add">Add</string>
+    <string name="str_description">Description: </string>
+    <string name="str_image_check_item">Image check item</string>
+    <string name="str_bottom_save">Bottom save</string>
+    <string name="str_options">Options</string>
+    <string name="str_opt_item">Options item</string>
+    <string name="str_insert_product">Insert product</string>
+    <string name="str_bottom_delete_item">Bottom delete item</string>
+    <string name="str_delete_item_list">Delete item list</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_done">Done</string>
+    <string name="str_image_category">Image category</string>
+    <string name="str_product_name">Product name</string>
+    <string name="str_really_wish_delete">Really wish delete the %1$s</string>
+    <string name="str_new_product">New product</string>
+    <string name="str_partial">Partial: </string>
+    <string name="str_calculate_values">Calculate values</string>
+    <string name="str_no">No</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_disable_sum_values">Disable sum values</string>
+    <string name="str_enable_sum_values">Enable sum values</string>
+    <string name="str_add_product">Add product</string>
+    <string name="str_sum_of_shop_list_disable">Sum of shop list disable</string>
+    <string name="str_sum_of_shop_list_enable">Sum of shop list enable</string>
+    <string name="str_update_product">Update product</string>
+    <string name="str_" translatable="false">---</string>
+    <string name="str_add_price">Add Price</string>
+    <string name="str_edit_product">Edit product</string>
+    <string name="str_select_a_category">Select a category</string>
+    <string name="str_invalid_field">Invalid field</string>
+    <string name="str_item_update_success">Item success!</string>
+    <string name="str_close">Close</string>
+    <string name="str_image_success">Image success</string>
+    <string name="str_new_shop_list">New shop list</string>
+    <string name="str_new_list">New List</string>
+    <string name="str_empty_list">Empty list</string>
+    <string name="str_no_list">No list</string>
+    <string name="str_information">Information</string>
+    <string name="str_by_default_the_app_calculates_values_automatically_to_deactivate_use_the_menu_on_this_screen">By default the app calculates values automatically. To deactivate, use the menu on this screen</string>
+    <string name="str_ok" translatable="false">OK</string>
+    <string name="str_insert_amount_item">Insert amount item</string>
+</resources>

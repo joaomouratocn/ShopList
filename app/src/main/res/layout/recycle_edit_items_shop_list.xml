@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:elevation="16dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/txv_name_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/img_save"
+            app:layout_constraintBottom_toTopOf="@id/edt_amount_item"
+            tools:text="Product name"/>
+
+        <ImageView
+            android:id="@+id/img_save"
+            android:layout_width="36dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/str_bottom_save"
+            android:src="@drawable/baseline_save_24"
+            app:layout_constraintTop_toTopOf="@id/txv_name_item"
+            app:layout_constraintBottom_toBottomOf="@id/txv_name_item"
+            app:layout_constraintStart_toEndOf="@id/txv_name_item"
+            app:layout_constraintEnd_toStartOf="@id/img_delete_item"/>
+
+        <ImageView
+            android:id="@+id/img_delete_item"
+            android:layout_width="36dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/baseline_delete_24"
+            android:contentDescription="@string/str_bottom_delete_item"
+            app:layout_constraintTop_toTopOf="@id/txv_name_item"
+            app:layout_constraintBottom_toBottomOf="@id/txv_name_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_save"/>
+
+
+        <TextView
+            android:id="@+id/txv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/str_amount_items"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            app:layout_constraintStart_toStartOf="@id/txv_name_item"
+            app:layout_constraintTop_toTopOf="@id/edt_amount_item"
+            app:layout_constraintBottom_toBottomOf="@id/edt_amount_item"/>
+
+
+        <EditText
+            android:id="@+id/edt_amount_item"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAlignment="center"
+            android:selectAllOnFocus="true"
+            android:focusable="true"
+            android:maxLines="1"
+            android:hint="@string/str_amount_items"
+            android:inputType="number"
+            android:autofillHints="no"
+            app:layout_constraintTop_toBottomOf="@id/txv_name_item"
+            app:layout_constraintBottom_toTopOf="@id/edt_desc_item"
+            app:layout_constraintStart_toEndOf="@id/txv_amount"
+            tools:text="1"/>
+
+
+
+        <TextView
+            android:id="@+id/txv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/str_type"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            app:layout_constraintTop_toTopOf="@id/spn_type"
+            app:layout_constraintBottom_toBottomOf="@id/spn_type"
+            app:layout_constraintEnd_toStartOf="@id/spn_type"/>
+
+        <Spinner
+            android:id="@+id/spn_type"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:entries="@array/types"
+            app:layout_constraintTop_toTopOf="@id/edt_amount_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/edt_desc_item"/>
+
+        <EditText
+            android:id="@+id/edt_desc_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/str_description_opt"
+            android:inputType="textPersonName"
+            android:autofillHints="no"
+            app:layout_constraintStart_toStartOf="@id/txv_name_item"
+            app:layout_constraintTop_toBottomOf="@id/spn_type"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
